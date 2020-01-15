@@ -21,7 +21,8 @@
   "dependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3"
+    "@babel/node": "^7.8.3",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.8.3"
