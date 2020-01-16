@@ -1,12 +1,12 @@
-# Проект Игры разума
+# РџСЂРѕРµРєС‚ РРіСЂС‹ СЂР°Р·СѓРјР°
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
 
-В рамках проекта необходимо реализовать набор мини-игр, запускаемых из консоли.
+Р’ СЂР°РјРєР°С… РїСЂРѕРµРєС‚Р° РЅРµРѕР±С…РѕРґРёРјРѕ СЂРµР°Р»РёР·РѕРІР°С‚СЊ РЅР°Р±РѕСЂ РјРёРЅРё-РёРіСЂ, Р·Р°РїСѓСЃРєР°РµРјС‹С… РёР· РєРѕРЅСЃРѕР»Рё.
 
-Пример игры:
+РџСЂРёРјРµСЂ РёРіСЂС‹:
 
 ```
 $ brain-progression
