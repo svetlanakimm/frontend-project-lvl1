@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const readlineSync = require('readline-sync');
+
 const MINIMUM = 1;
 const MAXIMUM = 100;
 const ROUNDS = 3;

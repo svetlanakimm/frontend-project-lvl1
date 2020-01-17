@@ -8,4 +8,4 @@
 
 Установка пакета и запуск игры:
 
-[![asciicast](https://asciinema.org/a/ToqttAUJotYYdiNJn3KzYoMFX.svg)](https://asciinema.org/a/ToqttAUJotYYdiNJn3KzYoMFX)
+[![asciicast](https://asciinema.org/a/ToqttAUJotYYdiNJn3KzYoMFX.svg)](https://asciinema.org/a/ToqttAUJotYYdiNJn3KzYoMFX?autoplay=1)
