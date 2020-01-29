@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import Init from '..';
-import WELCOMEPHRASE from '../games/brain-even';
+import { Init } from '..';
+import { WELCOMEPHRASE, brainEven } from '../games/brain-even';
 
-Init(WELCOMEPHRASE);
+Init(WELCOMEPHRASE, brainEven);
