@@ -6,6 +6,13 @@
 
 В рамках проекта необходимо реализовать набор мини-игр, запускаемых из консоли.
 
-Установка пакета и запуск игры:
+##Установка пакета и запуск игр:
 
-[![asciicast](https://asciinema.org/a/ToqttAUJotYYdiNJn3KzYoMFX.svg)](https://asciinema.org/a/ToqttAUJotYYdiNJn3KzYoMFX?autoplay=1)
+###Игра: "Проверка на чётность"
+[![asciicast](https://asciinema.org/a/L8MoI7M4HJ93pP50eM7czKcQi.svg)](https://asciinema.org/a/L8MoI7M4HJ93pP50eM7czKcQi)
+
+###Игра: "Калькулятор"
+[![asciicast](https://asciinema.org/a/ZhakzflPvEQAjIawOSVDcjMtd.svg)](https://asciinema.org/a/ZhakzflPvEQAjIawOSVDcjMtd)
+
+###Игра: "НОД"
+[![asciicast](https://asciinema.org/a/aKya823T5Zl3u0orW012PTN5Y.svg)](https://asciinema.org/a/aKya823T5Zl3u0orW012PTN5Y)
