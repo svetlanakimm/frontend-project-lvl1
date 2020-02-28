@@ -30,6 +30,7 @@
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "cross-env": "^6.0.3",
+    "cross-spawn": "^7.0.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-babel": "^5.3.0",
@@ -41,7 +42,8 @@
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
-    "brain-gcd": "dist/bin/brain-gcd.js"
+    "brain-gcd": "dist/bin/brain-gcd.js",
+    "brain-progression": "dist/bin/brain-gcd.js"
   },
   "files": [
     "dist"

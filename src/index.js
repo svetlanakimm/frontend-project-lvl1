@@ -5,6 +5,7 @@ const readlineSync = require('readline-sync');
 
 export const MINIMUM = 1;
 export const MAXIMUM = 100;
+export const LENGTH_OF_PROGRESSION = 10;
 const ROUNDS = 3;
 
 export const randomInt = (min, max) => {
