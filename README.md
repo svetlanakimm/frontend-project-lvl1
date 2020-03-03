@@ -9,10 +9,16 @@
 ## Установка пакета и запуск игр:
 
 ### Игра: "Проверка на чётность"
-[![asciicast](https://asciinema.org/a/L8MoI7M4HJ93pP50eM7czKcQi.svg)](https://asciinema.org/a/L8MoI7M4HJ93pP50eM7czKcQi)
+[![asciicast](https://asciinema.org/a/fsZZvikMCrhOK9EfqkCSvYp4Y.svg)](https://asciinema.org/a/fsZZvikMCrhOK9EfqkCSvYp4Y)
 
 ### Игра: "Калькулятор"
-[![asciicast](https://asciinema.org/a/ZhakzflPvEQAjIawOSVDcjMtd.svg)](https://asciinema.org/a/ZhakzflPvEQAjIawOSVDcjMtd)
+[![asciicast](https://asciinema.org/a/NY0ITwiwsv8s9H8JLsiotQnOV.svg)](https://asciinema.org/a/NY0ITwiwsv8s9H8JLsiotQnOV)
 
 ### Игра: "НОД"
-[![asciicast](https://asciinema.org/a/aKya823T5Zl3u0orW012PTN5Y.svg)](https://asciinema.org/a/aKya823T5Zl3u0orW012PTN5Y)
+[![asciicast](https://asciinema.org/a/R8Mmm8Qtw2uwJWLrFVolps7Fb.svg)](https://asciinema.org/a/R8Mmm8Qtw2uwJWLrFVolps7Fb)
+
+### Игра: "Арифметическая прогрессия"
+[![asciicast](https://asciinema.org/a/FwPqJyV3ZTLJYdKCNvmfeSu84.svg)](https://asciinema.org/a/FwPqJyV3ZTLJYdKCNvmfeSu84)
+
+### Игра: "Простое ли число?"
+[![asciicast](https://asciinema.org/a/9YBHVIUrgeaGba8Cg0aeIJZ0C.svg)](https://asciinema.org/a/9YBHVIUrgeaGba8Cg0aeIJZ0C)
