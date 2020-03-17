@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { Init } from '..';
-import { WELCOMEPHRASE, brainPrime } from '../games/brain-prime';
+import startBrainPrime from '../games/brain-prime';
 
-Init(WELCOMEPHRASE, brainPrime);
+startBrainPrime();

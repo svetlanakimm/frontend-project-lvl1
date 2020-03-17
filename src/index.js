@@ -1,25 +1,24 @@
 #!/usr/bin/env node
 import { car, cdr } from '@hexlet/pairs';
 
-const readlineSync = require('readline-sync');
+import readlineSync from 'readline-sync';
 
-export const MINIMUM = 1;
-export const MAXIMUM = 100;
-export const LENGTH_OF_PROGRESSION = 10;
-const ROUNDS = 3;
+export const min = 1;
+export const max = 100;
+const rounds = 3;
 
-export const randomInt = (min, max) => {
-  const rand = min + Math.random() * (max - min + 1);
+export const randomInt = (minimum, maximum) => {
+  const rand = minimum + Math.random() * (maximum - minimum + 1);
   return Math.floor(rand);
 };
 
-export const Init = (welcomePhrase, gameFunction) => {
+export const init = (welcomePhrase, gameFunction) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(welcomePhrase);
 
-  for (let i = 0; i < ROUNDS; i += 1) {
+  for (let i = 0; i < rounds; i += 1) {
     const brainEvenPair = gameFunction();
     console.log(`Question: ${car(brainEvenPair)}`);
     const userAnswer = readlineSync.question('Your answer: ');

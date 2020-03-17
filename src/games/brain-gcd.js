@@ -1,7 +1,12 @@
 import { cons } from '@hexlet/pairs';
-import { MAXIMUM, MINIMUM, randomInt } from '../index';
+import {
+  min,
+  max,
+  randomInt,
+  init,
+} from '../index';
 
-export const WELCOMEPHRASE = 'Find the greatest common divisor of given numbers.';
+export const welcomePhrase = 'Find the greatest common divisor of given numbers.';
 
 const getGCD = (num1, num2) => {
   let curr1 = num1;
@@ -17,8 +22,12 @@ const getGCD = (num1, num2) => {
 };
 
 export const brainGCD = () => {
-  const randomNum1 = randomInt(MINIMUM, MAXIMUM);
-  const randomNum2 = randomInt(MINIMUM, MAXIMUM);
+  const randomNum1 = randomInt(min, max);
+  const randomNum2 = randomInt(min, max);
   const rightAnswer = getGCD(randomNum1, randomNum2);
   return cons(`${randomNum1} ${randomNum2}`, rightAnswer.toString());
 };
+
+const startBrainGCD = () => init(welcomePhrase, brainGCD);
+
+export default startBrainGCD;

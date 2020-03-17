@@ -1,7 +1,12 @@
 import { cons } from '@hexlet/pairs';
-import { MAXIMUM, MINIMUM, randomInt } from '../index';
+import {
+  min,
+  max,
+  randomInt,
+  init,
+} from '../index';
 
-export const WELCOMEPHRASE = 'What is the result of the expression?';
+const welcomePhrase = 'What is the result of the expression?';
 const randomChoice = (arr) => arr[randomInt(0, arr.length - 1)];
 const getOperator = () => randomChoice(['+', '-', '*']);
 
@@ -18,10 +23,14 @@ const myEval = (num1, operator, num2) => {
   }
 };
 
-export const brainCalc = () => {
-  const randomNum1 = randomInt(MINIMUM, MAXIMUM);
-  const randomNum2 = randomInt(MINIMUM, MAXIMUM);
+const brainCalc = () => {
+  const randomNum1 = randomInt(min, max);
+  const randomNum2 = randomInt(min, max);
   const randomOperator = getOperator();
   const rightAnswer = myEval(randomNum1, randomOperator, randomNum2);
   return cons(`${randomNum1} ${randomOperator} ${randomNum2}`, rightAnswer.toString());
 };
+
+const startBrainCalc = () => init(welcomePhrase, brainCalc);
+
+export default startBrainCalc;

@@ -1,7 +1,12 @@
 import { cons } from '@hexlet/pairs';
-import { MINIMUM, MAXIMUM, randomInt } from '../index';
+import {
+  min,
+  max,
+  randomInt,
+  init,
+} from '../index';
 
-export const WELCOMEPHRASE = 'Answer "yes" if the number is even, otherwise answer "no".';
+export const welcomePhrase = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (num) => {
   if ((num % 2) === 0) {
     return 'yes';
@@ -10,7 +15,11 @@ const isEven = (num) => {
 };
 
 export const brainEven = () => {
-  const randomNum = randomInt(MINIMUM, MAXIMUM);
+  const randomNum = randomInt(min, max);
   const rightAnswer = isEven(randomNum);
   return cons(randomNum, rightAnswer);
 };
+
+const startBrainEven = () => init(welcomePhrase, brainEven);
+
+export default startBrainEven;

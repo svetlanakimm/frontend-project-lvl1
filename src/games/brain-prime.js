@@ -1,7 +1,12 @@
 import { cons } from '@hexlet/pairs';
-import { MAXIMUM, MINIMUM, randomInt } from '../index';
+import {
+  min,
+  max,
+  randomInt,
+  init,
+} from '../index';
 
-export const WELCOMEPHRASE = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+export const welcomePhrase = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   for (let i = 2; i < Math.floor(num / 2); i += 1) {
@@ -13,7 +18,11 @@ const isPrime = (num) => {
 };
 
 export const brainPrime = () => {
-  const randomNum = randomInt(MINIMUM, MAXIMUM);
+  const randomNum = randomInt(min, max);
   const rightAnswer = isPrime(randomNum);
   return cons(randomNum, rightAnswer);
 };
+
+const startBrainPrime = () => init(welcomePhrase, brainPrime);
+
+export default startBrainPrime;
